@@ -57,7 +57,7 @@ def find_url(domain):
 def output(values):
 
     #save as csv
-    with open("discovered_subdomains.csv", "w") as f:
+    with open("discovered_subdomains.csv", "a") as f:
      f.write("Subdomain,İp,Open_ports,Url/status")
      f.write("\n")
      for line in values:
