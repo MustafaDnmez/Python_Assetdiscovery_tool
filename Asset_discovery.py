@@ -1,6 +1,5 @@
 import dns.resolver
 import sys
-import socket 
 import nmap 
 import httpx
 # changed dns resolver lifretime from 5 to 10
