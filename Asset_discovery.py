@@ -37,12 +37,15 @@ def find_subdomain(domain):
             pass
         except KeyboardInterrupt:
             quit()
-        output(subdomain_store)
+    output(subdomain_store)
 def port_scan(target):
 # instantiate a PortScanner object
     scanner = nmap.PortScanner()
     scanner.scan(target,None,"-v -sS --open")
-    open_ports=scanner[target]["tcp"].keys()
+    try:
+        open_ports=scanner[target]["tcp"].keys()
+    except:
+        open_ports=""
     return open_ports
 
 def find_url(domain):
