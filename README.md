@@ -4,7 +4,7 @@
  <h3>You can input txt file or  domain.Then tool will discover subdomains ip address and open ports </h3>
  <h2>How it works</h2>
  <h3>1.İnput a domain or file</h3>
- <code>Python Asset_discovery.py google.com</code>
+ <code>Python Asset_discovery.py google.com</code><br>
  <code>Python Asset_discovery.py subdomains.txt</code>
  <h3>Result</h3>
 
