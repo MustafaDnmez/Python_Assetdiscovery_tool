@@ -7,3 +7,4 @@
  <code>Python Asset_discovery.py google.com</code>
  <h3>Result</h3>
 
+<img src="result.jpg" width=600 height=300>
