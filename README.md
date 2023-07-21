@@ -5,6 +5,7 @@
  <h2>How it works</h2>
  <h3>1.İnput a domain or file</h3>
  <code>Python Asset_discovery.py google.com</code>
+ <code>Python Asset_discovery.py subdomains.txt</code>
  <h3>Result</h3>
 
 <img src="result.jpg" width=600 height=300>
